@@ -12,6 +12,7 @@ url: "http://learn.media.mit.edu"
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 include: ['_pages']
 
 # Assets
