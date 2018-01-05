@@ -32,23 +32,23 @@ circuit_stickers:
 
 
 databasic:
-  name: DataBasic
+  name: DataBasic.io
   link: /activities/databasic
   short_intro: >
     A set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
   description: >
-    DataBasic is a set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
+    DataBasic.io is a set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
   cover_photo: /images/databasic.jpg
   video: >
     <iframe src="https://player.vimeo.com/video/150218661?color=36d5f5&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
-    - description: View the workshop activities
-      url: "https://datatherapy.org/activities/"
     - description: Explore the web tools
       url: "https://databasic.io/en/"
+    - description: View the workshop activities
+      url: "https://datatherapy.org/activities/"
   details:
-    age_range: Adult
-    group_size: 20 people or less
+    age_range: High school through adult
+    group_size: Anywhere from 10 to 80 people, around 30 is ideal
     facilitators: 1-2 facilitators
     facilitator_skills: Data literacy, creativity, arts and crafts
     activity_type: Hands-on skill building workshop
@@ -163,7 +163,7 @@ spin:
     - description: View the Spin turntable assembly instructions
       url: "http://spin.media.mit.edu/build"
   details:
-    age_range: Teen and older (?)
+    age_range: Teens and adults
     group_size: Variable, best for a small group
     facilitators: 2+
     facilitator_skills: Laser cutting, 3D printing, soldering, basic tool use, Arduino programming
