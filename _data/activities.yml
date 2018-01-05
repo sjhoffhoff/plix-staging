@@ -39,6 +39,8 @@ databasic:
   description: >
     DataBasic is a set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
   cover_photo: /images/databasic.jpg
+  video: >
+    <iframe src="https://player.vimeo.com/video/150218661?color=36d5f5&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     - description: View the workshop activities
       url: "https://datatherapy.org/activities/"
@@ -54,6 +56,10 @@ databasic:
     cost: Only the cost of arts and craft supplies
     supplies: Arts and craft supplies, cardboard, glue, etc.
     additional_needs: Many of the sessions require you to provide a data set you are familiar with
+  photos:
+    - /images/databasic_02.jpg
+    - /images/databasic_03.jpg
+    - /images/databasic_04.jpg
 
 
 duct_tape_network:
@@ -77,6 +83,10 @@ duct_tape_network:
     session_length: Series of seven 1-hour workshops
     cost: Less than $10 per participant
     supplies: Arts and craft supplies, cardboard, glue, etc.
+  photos:
+    - /images/dtn_02.jpg
+    - /images/dtn_03.jpg
+    - /images/dtn_04.jpg
 
 
 family_creative_learning:
@@ -103,6 +113,10 @@ family_creative_learning:
     cost: $8-12 per participant for food, plus cost of Makey Makeys ($20-$50 each) and craft supplies
     supplies: 1 Makey Makey per family, paper, arts and craft materials, eating supplies (plates, napkins, cups, etc.)
     space_and_equipment: 1 computer station (with internet access) per family, plus a central community table for sharing
+  photos:
+    - /images/fcl_02.jpg
+    - /images/fcl_03.jpg
+    - /images/fcl_04.jpg
 
 scratch:
   name: Scratch
