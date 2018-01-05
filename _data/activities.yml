@@ -57,9 +57,9 @@ databasic:
     supplies: Arts and craft supplies, cardboard, glue, etc.
     additional_needs: Many of the sessions require you to provide a data set you are familiar with
   photos:
-    - /images/databasic_02.jpg
-    - /images/databasic_03.jpg
-    - /images/databasic_04.jpg
+    - /images/databasic_2.jpg
+    - /images/databasic_3.jpg
+    - /images/databasic_4.jpg
 
 
 duct_tape_network:
@@ -84,9 +84,9 @@ duct_tape_network:
     cost: Less than $10 per participant
     supplies: Arts and craft supplies, cardboard, glue, etc.
   photos:
-    - /images/dtn_02.jpg
-    - /images/dtn_03.jpg
-    - /images/dtn_04.jpg
+    - /images/dtn_2.jpg
+    - /images/dtn_3.jpg
+    - /images/dtn_4.jpg
 
 
 family_creative_learning:
@@ -114,9 +114,9 @@ family_creative_learning:
     supplies: 1 Makey Makey per family, paper, arts and craft materials, eating supplies (plates, napkins, cups, etc.)
     space_and_equipment: 1 computer station (with internet access) per family, plus a central community table for sharing
   photos:
-    - /images/fcl_02.jpg
-    - /images/fcl_03.jpg
-    - /images/fcl_04.jpg
+    - /images/fcl_2.jpg
+    - /images/fcl_3.jpg
+    - /images/fcl_4.jpg
 
 scratch:
   name: Scratch
