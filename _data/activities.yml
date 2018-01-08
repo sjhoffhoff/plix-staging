@@ -1,10 +1,10 @@
-circuit_stickers:
-  name: Circuit Stickers
-  link: /activities/circuit-stickers
+chibitronics:
+  name: Chibitronics
+  link: /activities/chibitronics
   short_intro: >
     A series of activities using electronic stickers, which let you create, craft and code technology through arts and crafts.
   description: >
-    Circuit Stickers are easy-to-use peel-and-stick electronic modules. Use them with copper tape to add electronics to any sticker-friendly surface (paper, fabric, plastic) without soldering!
+    Chibitronics circuit stickers are easy-to-use, peel-and-stick electronic modules for building circuits on paper. They are a friendly introduction to electronics, allowing young people to learn circuits and programming while they create beautiful interactive works of art!
   cover_photo: /images/circuit_stickers.jpg
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -15,20 +15,24 @@ circuit_stickers:
       url: "https://chibitronics.com/how-to/"
     - description: Get Circuit Sticker activity lesson plans and templates designed for educators
       url: "https://chibitronics.com/educators/"
+    - description: Download or purchase the Circuit Sticker Sketchbook for an introduction to paper circuits
+      url: https://get.chibitronics.com/sketchbook-en.pdf
+    - description: Download or purchase Love to Code Volume 1 book for an introduction to programming with paper circuits
+      url: https://get.chibitronics.com/ltc-vol1.pdf
   details:
     age_range: 8 and older
-    group_size: Variable, limited only by number of kits and number of facilitators
-    facilitators:
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
     facilitator_skills: Arts and crafts, basic familiarity with circuitry concepts
     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $8-$110 (for a classroom pack that includes materials for 30 kids)
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
   photos:
     - /images/circuit_stickers_sailboat.jpg
     - /images/circuit_stickers_origami.jpg
     - /images/circuit_stickers_map.jpg
-    - /images/circuit_stickers_lesson.jpg
+    - /images/circuit_stickers_workshop.jpg
 
 
 databasic:
