@@ -102,6 +102,8 @@ family_creative_learning:
   description: >
     Family Creative Learning (FCL) is a workshop series that engages children and their parents to learn together — as designers and inventors — through the use of creative technologies. We designed the workshops to strengthen the social support and expertise of families with limited access to resources and experiences around computing.
   cover_photo: /images/fcl.jpg
+  video: >
+    <iframe src="https://player.vimeo.com/video/71853195" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     - description: Download the facilitator guidebook
       url: "http://familycreativelearning.org/guide/"
@@ -109,8 +111,8 @@ family_creative_learning:
     age_range: Families with children age 7-12
     group_size:  >
       Any number of family groups can participate, limited only by the number of facilitators and equipment
-    facilitators: 1 facilitator per 3-4 families
-    facilitator_skills: Scratch, Makey Makey
+    facilitators: 1 facilitator per 3-4 families, plus an extra facilitator to help with coordination
+    facilitator_skills: Scratch, Makey Makey, creativity, arts and crafts, play
     parents_involved: "Yes"
     activity_type: Hands-on technology skills workshop
     session_length: Series of five 2-hour workshops
@@ -132,13 +134,13 @@ scratch:
   video: >
     <iframe src="https://player.vimeo.com/video/65583694" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
-    - description: Download or purchase Scratch activity cards and tutorials
+    - description: Download or purchase Scratch activity cards, tutorials, and educator guides
       url: "https://scratch.mit.edu/tips"
-    - description: Download the Creative Computing curriculum guide for Scratch
-      url: "http://scratched.gse.harvard.edu/guide/"
+    - description: View and download Scratch resources for educators
+      url: "https://scratch.mit.edu/educators"
   details:
     age_range: 8 and older
-    group_size: 1 or more, limited only by number of computers
+    group_size: 1 or more (1 or 2 per computer)
     facilitators: 0 or more
     facilitator_skills: Basic familiarity with Scratch
     parents_involved: "No"
