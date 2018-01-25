@@ -38,7 +38,7 @@
     </div>
   {% endif %}
 
-  <h2>{{ short_name }} at a Glance</h2>
+  <h3>{{ short_name }} at a Glance</h3>
   <ul class="activity-details">
     {% for item in activity.details %}
       <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>
@@ -53,7 +53,7 @@
 
 {% if activity.photos %}
   <div class="community">
-    <h2>From the Community</h2>
+    <h3>From the Community</h3>
     <div class="image-container">
       {% for image in activity.photos %}
         <img src={{ image | relative_url }} alt="{{ short_name }} in action" />
