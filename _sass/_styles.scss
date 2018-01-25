@@ -1,4 +1,4 @@
-$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack: Helvetica, Arial, sans-serif;
 $large-font: 24px;
 $medium-font: 18px;
 $med-sm-font: 14px;
@@ -14,7 +14,9 @@ $gray: #979797;
 body {
   font: 100% $font-stack;
   font-size: $medium-font;
-  font-weight: $light-weight;
+  font-weight: $medium-weight;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e62565' fill-opacity='0.10' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 
   h2 {
     font-size: $large-font;
@@ -41,7 +43,7 @@ body {
   }
 
   .grid {
-    background-image: url("../images/dot_grid.png");
+    //background-image: url("../images/dot_grid.png");
   }
 }
 
