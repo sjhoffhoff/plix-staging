@@ -27,8 +27,8 @@
 }
 
 .tile-wrapper {
-  margin: 0;
-  padding: 0 15px;
+  width: 90%;
+  margin: auto;
 }
 
 .site-logo {
@@ -144,6 +144,10 @@
 
   }
 
+  .tile-wrapper {
+    max-width: 500px;
+  }
+
   .tiles {
     display: grid;
     grid-template-columns: repeat(2,minmax(150px, 400px));
@@ -204,12 +208,16 @@
 
   .grid-wrapper {
     width: auto;
-    max-width: 1200px;
     padding: 0 15px;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
     grid-auto-rows: max-content;
     grid-auto-flow: row;
+  }
+
+  .tile-wrapper {
+    width: 80%;
+    max-width: 600px;
   }
 
   .main {
@@ -248,8 +256,13 @@
 
 @media (min-width: 900px) {
   .grid-wrapper {
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .tile-wrapper {
+    max-width: 900px;
   }
 
   .tiles {
