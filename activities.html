@@ -12,6 +12,7 @@ redirect_from: /
 
 {% for activity in site.data.activities %}
   <li>
+    {{ activity[1].name }}
     <div class="tile">
       <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
       <div class="overlay">
@@ -21,7 +22,6 @@ redirect_from: /
         </div>
       </div>
     </div>
-    {{ activity[1].name }}
   </li>
 {% endfor %}
 

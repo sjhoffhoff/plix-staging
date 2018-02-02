@@ -1,30 +1,33 @@
-$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$large-font: 24px;
+$font-stack: Helvetica, Arial, sans-serif;
+$extra-large-font: 28px;
+$large-font: 20px;
 $medium-font: 18px;
 $med-sm-font: 14px;
 $small-font: 0.8em;
 $light-weight: 300;
 $medium-weight: 400;
-$heavy-weight: 500;
-
+$heavy-weight: 600;
 $main-color: #E62565;
-$accent-color: #80E1CC;
+$accent-color: #3ACEFC;
 $gray: #979797;
 
 body {
   font: 100% $font-stack;
   font-size: $medium-font;
-  font-weight: $light-weight;
+  font-weight: $medium-weight;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 6' width='6' height='6'%3e%3ccircle cx='5' cy='5' r='0.35' fill='#979797' stroke='none' stroke-width='0' /%3e%3c/svg%3e");
+
+  margin: 0;
 
   h2 {
-    font-size: $large-font;
+    font-size: $extra-large-font;
     font-weight: $heavy-weight;
   }
 
   h3 {
     font-size: $medium-font;
-    font-weight: $medium-weight;
-    margin: 0;
+    font-weight: $heavy-weight;
   }
 
   p {
@@ -40,17 +43,14 @@ body {
     color: $accent-color;
   }
 
-  .grid {
-    background-image: url("../images/dot_grid.png");
-  }
 }
 
 .site-header {
-  border-bottom: 3px solid $main-color;
+  border-bottom: 10px solid $main-color;
 }
 
 .site-logo {
-  height: 60px;
+  height: 45px;
   width: auto;
 }
 
@@ -65,12 +65,13 @@ body {
     text-align: center;
     text-decoration: none;
     color: black;
-    font-weight: $light-weight;
+    font-weight: $medium-weight;
   }
 
   a.active {
-    border-bottom: 2px solid $main-color;
-    padding-bottom: 3px;
+    //border-bottom: 2px solid $main-color;
+    //padding-bottom: 3px;
+    background-color: lighten($main-color,42%);
   }
 
   a:hover {
@@ -79,12 +80,18 @@ body {
 }
 
 .site-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
   span {
     font-size: $small-font;
   }
 }
 
 .callout {
+
+  h3 {
+    margin: 0;
+  }
 
   p {
     margin-bottom: 1em;
@@ -96,7 +103,6 @@ body {
 
   .tile {
     background-color: $accent-color;
-    border-radius: 10px;
     padding: 10px;
 
     a:hover {
@@ -126,11 +132,11 @@ body {
     max-width: 47%;
     min-width: 250px;
     height: auto;
-    padding: 1%;
+    //padding: 1%;
   }
 
   .image-container {
-    text-align: center;
+    //text-align: center;
   }
 }
 
@@ -149,7 +155,6 @@ body {
   img {
     max-width: 200px;
     max-height: 200px;
-    border-radius: 5%;
     transition: .5s ease;
   }
 
@@ -160,7 +165,7 @@ body {
 
       img {
         opacity: 0;
-        background-color: $accent-color;
+        background-color: lighten($accent-color,20%);
       }
   }
   .overlay {
@@ -178,10 +183,9 @@ body {
 
   .info {
     color: black;
-    background-color: $accent-color;
-    border-radius: 5%;
+    background-color: lighten($accent-color,20%);
     font-size: $med-sm-font;
-    font-weight: $light-weight;
+    font-weight: $medium-weight;
     position: relative;
     width: 90%;
     height: 90%;
@@ -191,8 +195,8 @@ body {
     a {
       font-size: $medium-font;
       font-weight: $medium-weight;
-    text-decoration: underline;
-    color: $main-color;
+      text-decoration: underline;
+      color: $main-color;
     }
 
     a:hover {
