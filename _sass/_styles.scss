@@ -26,7 +26,7 @@ body {
   }
 
   h3 {
-    font-size: $medium-font;
+    font-size: $large-font;
     font-weight: $heavy-weight;
   }
 
@@ -46,31 +46,19 @@ body {
 }
 
 .site-header {
+  background-color: white;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 6' width='6' height='6'%3e%3ccircle cx='5' cy='5' r='0.35' fill='#979797' stroke='none' stroke-width='0' /%3e%3c/svg%3e");
   border-bottom: 10px solid $main-color;
 }
 
-.site-logo {
-  height: 45px;
-  width: auto;
-}
-
 .site-nav {
-  ul {
-    list-style-type: none;
-    margin: 0;
-  }
-
-  li a {
-    display: block;
-    text-align: center;
+  a {
     text-decoration: none;
     color: black;
     font-weight: $medium-weight;
   }
 
   a.active {
-    //border-bottom: 2px solid $main-color;
-    //padding-bottom: 3px;
     background-color: lighten($main-color,42%);
   }
 
@@ -80,8 +68,6 @@ body {
 }
 
 .site-footer {
-  margin-top: 20px;
-  margin-bottom: 20px;
   span {
     font-size: $small-font;
   }
@@ -124,19 +110,6 @@ body {
     li {
       padding: .25em 0;
     }
-  }
-}
-
-.community {
-  img {
-    max-width: 47%;
-    min-width: 250px;
-    height: auto;
-    //padding: 1%;
-  }
-
-  .image-container {
-    //text-align: center;
   }
 }
 
@@ -204,12 +177,10 @@ body {
   }
 }
 
-.external-logo {
-  display: inline-block;
-  vertical-align: middle;
-  height: 2em;
-  width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+div.video {
+  width: 100%;
+  height: 130px;
+  background-color: $gray;
+  text-align: center;
+  padding-top: 20px;
 }
-
