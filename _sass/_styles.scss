@@ -16,8 +16,6 @@ body {
   font-size: $medium-font;
   font-weight: $medium-weight;
   background-color: #ffffff;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 6' width='6' height='6'%3e%3ccircle cx='5' cy='5' r='0.35' fill='#979797' stroke='none' stroke-width='0' /%3e%3c/svg%3e");
-
   margin: 0;
 
   h2 {
@@ -32,6 +30,7 @@ body {
 
   p {
     margin-top: 0;
+    line-height: 1.2em;
   }
 
   a {
@@ -43,11 +42,14 @@ body {
     color: $accent-color;
   }
 
+  li{
+    padding-bottom: 10px;
+  }
+
 }
 
 .site-header {
   background-color: white;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 6' width='6' height='6'%3e%3ccircle cx='5' cy='5' r='0.35' fill='#979797' stroke='none' stroke-width='0' /%3e%3c/svg%3e");
   border-bottom: 10px solid $main-color;
 }
 
@@ -118,7 +120,7 @@ body {
 }
 
 .tiles {
-    list-style: none;
+  list-style: none;
 
   .tile {
     position: relative;

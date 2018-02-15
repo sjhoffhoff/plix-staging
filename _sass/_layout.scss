@@ -9,6 +9,7 @@
 //////////////////////////////////
 
 .site-header {
+  padding: 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -17,6 +18,7 @@
   z-index: 1;
 
   .header-content {
+    margin: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; // vertical alignment
@@ -24,7 +26,7 @@
   }
 
   .site-logo {
-    padding: 10px;
+    padding: 10px 0;
     height: 45px;
     width: auto;
   }
@@ -39,7 +41,7 @@
 
     a {
       margin: 0 10px 10px 10px;
-      padding: 5px;
+      padding: 9px 7px 8px 7px;
       display: inline-block;
       text-align: center;
       font-size: $med-sm-font;
@@ -48,6 +50,8 @@
 }
 
 .grid-wrapper {
+  padding: 0 15px;
+  min-height: 67vh;
   width: 80%;
   margin: 130px 10% 0 10%;
   display: grid;
@@ -55,6 +59,7 @@
 }
 
 .tile-wrapper {
+  padding: 0 15px;
   width: 80%;
   margin: 130px auto 0 auto;
 }
@@ -131,8 +136,9 @@ div.community {
 footer.site-footer {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  margin-top: 50px;
   display: flex;
+  padding: 15px 0;
   flex-direction: column;
   justify-content: center; // horizontal alignment
   align-items: center; // vertical alignment
@@ -145,9 +151,10 @@ footer.site-footer {
       display: inline-block;
       align: middle;
       vertical-align: bottom;
-      height: 2em;
+      height: 2.6em;
       width: auto;
-      padding: 0 10px;
+      padding: 0 5px;
+      margin-bottom: 3px;
     }
   }
 }
@@ -161,6 +168,8 @@ footer.site-footer {
 @media (min-width: 500px) {
   .site-header {
     .header-content {
+      max-width: 550px;
+      margin: auto;
       .site-nav {
         a {
           margin: 0 15px 10px 15px;
@@ -205,17 +214,19 @@ footer.site-footer {
     position: relative;
 
     .header-content {
+      max-width: 950px;
+      margin: auto;
+      padding: 0 15px;
       flex-direction: row;
       justify-content: space-between;
 
       .site-logo {
-        padding: 20px 30px 20px 35px;
+        padding: 20px 0;
       }
 
       .site-nav {
         width: auto;
         margin: 0;
-        padding-right: 15px;
         flex-direction: row;
         justify-content: flex-end; // horizontal alignment
 
@@ -227,8 +238,9 @@ footer.site-footer {
   }
 
   .grid-wrapper {
-    width: auto;
-    margin: 0 35px 20px 35px;
+    //width: auto;
+    max-width: 950px;
+    margin: 20px 35px 20px 35px;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
     grid-auto-rows: max-content;
@@ -236,8 +248,8 @@ footer.site-footer {
   }
 
   .tile-wrapper {
-    width: 100%;
-    max-width: 600px;
+    //width: 100%;
+    max-width: 950px;
     margin: 20px auto 0 auto;
   }
 
@@ -275,6 +287,7 @@ footer.site-footer {
     grid-row: 4 / 5;
     width: 100%;
     margin: 0 auto;
+    margin-top: 50px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -289,26 +302,26 @@ footer.site-footer {
 
 @media (min-width: 900px) {
   .header-content {
-    max-width: 1200px;
+    max-width: 950px;
     margin: 0 auto;
   }
 
   .grid-wrapper {
-    max-width: 1130px;
-    margin: 0 auto 20px auto;
+    max-width: 950px;
+    margin: 20px auto 20px auto;
     padding: 0 35px;
   }
 
   .tile-wrapper {
-    width: 80%;
-    max-width: 900px;
+    //width: 80%;
+    max-width: 950px;
   }
 
   .tiles {
-    max-width: 900px;
+    //max-width: 950px;
     margin-right: auto;
     margin-left: auto;
-    grid-template-columns: repeat(3,minmax(150px, 400px));
+    grid-template-columns: repeat(3,minmax(150px, 450px));
   }
 
   .main, .community {
