@@ -315,6 +315,11 @@ footer.site-footer {
   .tile-wrapper {
     //width: 80%;
     max-width: 950px;
+
+    .activity-page-headline{
+      max-width: 750px;
+      margin: 20px auto;
+    }
   }
 
   .tiles {
