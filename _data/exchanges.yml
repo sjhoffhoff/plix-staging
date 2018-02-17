@@ -1,6 +1,8 @@
 databasic:
   name: DataBasic.io and Saint Paul Public Library
-  link: /community/exchanges/databasic
+  short_name: Data Literacy
+  link: /exchanges/databasic
+  cover_photo: /images/databasic_exchange.png
   paragraphs:
     - >
       <a href="https://databasic.io/">DataBasic.io</a> is a suite of tools and activities to help people understand and work with data, a valuable skill set in this age of data and visualization. Activities include hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
@@ -18,7 +20,9 @@ databasic:
 openag:
   name: >
     Open Agriculture Initiative, Akron-Summit County Public Library, and Free Library of Philadelphia
-  link: /community/exchanges/openag
+  short_name: Personal Food Computers
+  link: /exchanges/openag
+  cover_photo: /images/personal_food_computer.jpg
   paragraphs:
     - >
       The <a href="https://www.media.mit.edu/groups/open-agriculture-openag/overview/">MIT Open Agriculture Initiative</a> brings together partners from industry, government, and academia to collaborate on the creation of an open-source ecosystem of technologies, such as the <a href="https://www.media.mit.edu/posts/build-a-food-computer/">Food Computer</a>, to enable and promote transparency, networked experimentation, education, and hyper-local production.
@@ -47,7 +51,9 @@ openag:
 
 playful_words:
   name: Playful Words and Boston Public Library
-  link: /community/exchanges/playful-words
+  short_name: Early Literacy
+  link: /exchanges/playful-words
+  cover_photo: /images/storyblocks.png
   paragraphs:
     - >
       The <a href="https://www.media.mit.edu/projects/playful-words/overview/">Playful Words</a> team is designing tools for children to develop skills in self-expression, literacy, and dialog through natural mediums of written language, pictures, and stories. This group is working with <a href="http://www.bpl.org/">Boston Public Library</a> to gain an understanding of how to integrate <a href="https://www.media.mit.edu/projects/speech-blocks/overview/">SpeechBlocks</a> and other Playful Words tools into existing community networks.
@@ -70,7 +76,9 @@ playful_words:
 
 scratchx:
   name: ScratchX and Richland Library
-  link: /community/exchanges/scratchx
+  short_name: Scratch Extensions
+  link: /exchanges/scratchx
+  cover_photo: /images/scratchx_microbit.png
   paragraphs:
     - >
       The <a href="http://scratchx.org/">ScratchX</a> team is building experimental extensions to <a href="https://scratch.mit.edu/">Scratch</a>, a programming language and online community for creating your own interactive stories, games, and animations. ScratchX extensions allow you to connect your Scratch projects to external hardware such as the <a href="https://store.arduino.cc/usa/arduino-101">Arduino/Genuino 101</a> board with a built in tilt sensor and Bluetooth connectivity to interface your projects with the physical world.
@@ -89,18 +97,17 @@ scratchx:
     - /images/scratchx_playtest_workshop.jpg
 
 
-space:
-  name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
-  link: /community/exchanges/space
-  paragraphs:
-    - >
-      The <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a> was founded in the 2016-2017 academic year with the vision of making spacing more accessible to more people through the reach of DIY instrument, experiments, sensors, satellites, and a new age of space exploration. This initiative is geared to create and deploy the ideas that seem impossible today by working beyond the rational constraints of most academic grants.
-    - >
-      One of their goals is to develop outreach programs, which includes a pilot Climate CubeSat Co-building Outreach Program with a group of Boston-area high schoolers. <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a> and the <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a> are teaming up with the Space Initiative to adapt the CubeSat program materials and create workshops for libraries to engage community members with space exploration technologies. The details of this residency exchange are still in development, so stay tuned for updates!
-  team_members:
-    - name: Ariel Ekblaw
-      institution: Space Exploration Initiative, MIT Media Lab
-    - name: Devora Najjar
-      institution: Space Exploration Initiative, MIT Media Lab
-    - name: Avery Normandin
-      institution: Space Exploration Initiative, MIT Media Lab
+# space:
+#   name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
+#   link: /exchanges/space
+#   cover_photo: /images/cubesat.jpg
+#   paragraphs:
+#     - >
+#       We’re exploring an exchange between the Media Lab’s <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a>, <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a>, and <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a>. This team is hoping to build on STEM and climate-related outreach programs that the Space Initiative has been piloting with Boston-area youth. Together, they aim to create materials and workshops for libraries to engage community members with space exploration technologies and STEM learning. The details of this residency exchange are still in development, so stay tuned for updates!
+#   team_members:
+#     - name: Ariel Ekblaw
+#       institution: Space Exploration Initiative, MIT Media Lab
+#     - name: Devora Najjar
+#       institution: Space Exploration Initiative, MIT Media Lab
+#     - name: Avery Normandin
+#       institution: Space Exploration Initiative, MIT Media Lab

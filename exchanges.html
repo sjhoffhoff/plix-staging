@@ -1,21 +1,28 @@
 ---
-layout: default
+layout: tiles
 title: Residency Exchanges
-permalink: /community/exchanges/
+permalink: /exchanges/
 ---
 
-<div class='main no-heading'>
-
-	<h2>Residency Exchanges</h2>
-
-  <p>Residency exchanges pair up teams of public librarians with Media Lab researchers to develop materials together. Meet our current residency exchange participants:</p>
-
-  <ul>
-    <li><a href={{ '/playful_words' | relative_url }}>Playful Words and Boston Public Library</a></li>
-    <li><a href={{ '/databasics' | relative_url }}>DataBasic.io and St Paul Public Library</a></li>
-    <li><a href={{ '/scratchx' | relative_url }}>ScratchX and Richland Library</a></li>
-    <li><a href={{ '/openag' | relative_url }}>OpenAg, Akron-Summit County Public Library, and Free Library of Philidelphia</a></li>
-    <li><a href={{ '/space' | relative_url }}>Space Exploration Initiative, Charlotte Mecklenburg Library, and Cambridge Public Library</a></li>
-  </ul>
-
+<div class="activities-headline">
+  <h2>Residency exchanges pair up teams of public librarians with Media Lab researchers to develop materials together.</h2>
+  <p>Meet our current residency exchange participants!</p>
 </div>
+
+<ul class="tiles">
+
+{% for exchange in site.data.exchanges %}
+  <li>
+    <div class="tile">
+      <a href={{ exchange[1].link | relative_url }}>
+        <img src={{ exchange[1].cover_photo | relative_url }} alt="{{ exchange[1].name }}" />
+        <div class="overlay">
+            {{ exchange[1].name }}
+        </div>
+        <span class="tile-name">{{ exchange[1].short_name }}</span>
+      </a>
+    </div>
+  </li>
+{% endfor %}
+
+</ul>

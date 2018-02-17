@@ -7,10 +7,12 @@ $small-font: 0.8em;
 $light-weight: 300;
 $medium-weight: 400;
 $heavy-weight: 600;
-$main-color: #E62565;
-$accent-color: #3ACEFC;
+$main-color: #e62565;
+$light-main-color: #fce5ed;
+$accent-color: #3acefc;
 $gray: #979797;
 
+// Universal default styling
 body {
   font: 100% $font-stack;
   font-size: $medium-font;
@@ -48,6 +50,7 @@ body {
 
 }
 
+// Header-specific styling for all layouts
 .site-header {
   background-color: white;
   border-bottom: 10px solid $main-color;
@@ -69,16 +72,7 @@ body {
   }
 }
 
-.site-footer {
-  span {
-    font-size: $small-font;
-  }
-}
-
-.activity-page-headline{
-  text-align: center;
-}
-
+// Content component styling for all layouts
 .callout {
 
   h3 {
@@ -123,63 +117,52 @@ body {
   padding-top: 20px;
 }
 
+.activities-headline {
+  background-color: $light-main-color;
+  text-align: center;
+}
+
+.external-logo {
+  text-align: center;
+
+  img {
+    height: 2em;
+    padding: 0 5px;
+  }
+}
+
 .tiles {
   list-style: none;
 
   .tile {
-    position: relative;
-    width: 100%;
-  }
+    img {
+      transition: .5s ease;
+    }
 
-  img {
-    max-width: 200px;
-    max-height: 200px;
-    transition: .5s ease;
+    .overlay {
+      opacity: 0;
+      color: black;
+      font-size: $medium-font;
+      font-weight: $medium-weight;
+      transition: .5s ease;
+    }
+
+    .tile-name {
+      background-color: $main-color;
+      color: white;
+      font-size: $medium-font;
+      font-weight: $heavy-weight; 
+    }
   }
 
   .tile:hover {
+    img {
+      opacity: .2;
+    }
+
     .overlay {
-        opacity: 1;
-      }
-
-      img {
-        opacity: 0;
-        background-color: lighten($accent-color,20%);
-      }
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 50%;
-    left: 50%;
-    right: 50%;
-    height: 200px;
-    width: 200px;
-    opacity: 0;
-    transform: translate(-50%, 0);
-    transition: .5s ease;
-  }
-
-  .info {
-    color: black;
-    background-color: lighten($accent-color,20%);
-    font-size: $med-sm-font;
-    font-weight: $medium-weight;
-    position: relative;
-    width: 90%;
-    height: 90%;
-    padding: 5%;
+      opacity: 1;
     }
-
-    a {
-      font-size: $medium-font;
-      font-weight: $medium-weight;
-      text-decoration: underline;
-      color: $main-color;
-    }
-
-    a:hover {
-    color: white;
   }
 }
 
@@ -189,4 +172,11 @@ div.video {
   background-color: $gray;
   text-align: center;
   padding-top: 20px;
+}
+
+// Footer-specific styling for all layouts
+.site-footer {
+  span {
+    font-size: $small-font;
+  }
 }

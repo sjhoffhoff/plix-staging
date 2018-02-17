@@ -4,25 +4,24 @@ title: Activities
 permalink: /activities/
 redirect_from: /
 ---
-<div style="background-color:#fce5ed; padding:20px 30px;">
-  <h2 class="activity-page-headline">The Public Library Innovation Exchange brings together MIT Media Lab researchers and public libraries.</h2>
-  <p style="text-align:center">Try out some of our activities below and <a href="mailto:{{ site.email }}">let us know</a> what you think!</p>
+<div class="activities-headline">
+  <h2>The Public Library Innovation Exchange brings together MIT Media Lab researchers and public libraries.</h2>
+  <p>Try out some of our activities below and <a href="mailto:{{ site.email }}">let us know</a> what you think!</p>
 </div>
 
 <ul class="tiles">
 
 {% for activity in site.data.activities %}
   <li>
-    <span>{{ activity[1].name }}</span>
-    <div class="tile">
-      <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
-      <div class="overlay">
-        <div class="info">
-          {{ activity[1].short_intro }}<br /><br />
-          <a href={{ activity[1].link | relative_url }}>Learn more!</a>
-        </div>
+      <div class="tile">
+        <a href={{ activity[1].link | relative_url }}>
+          <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
+          <div class="overlay">
+              {{ activity[1].short_intro }}<br /><br />
+          </div>
+          <span class="tile-name">{{ activity[1].name }}</span>
+        </a>
       </div>
-    </div>
   </li>
 {% endfor %}
 
