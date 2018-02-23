@@ -123,11 +123,11 @@ body {
 }
 
 .external-logo {
-  text-align: center;
+  text-align: left;
 
   img {
     height: 2em;
-    padding: 0 5px;
+    padding: 0 10px 0 0;
   }
 }
 
@@ -151,7 +151,7 @@ body {
       background-color: $main-color;
       color: white;
       font-size: $medium-font;
-      font-weight: $heavy-weight; 
+      font-weight: $heavy-weight;
     }
   }
 

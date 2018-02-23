@@ -56,22 +56,22 @@ playful_words:
   cover_photo: /images/storyblocks.png
   paragraphs:
     - >
-      The <a href="https://www.media.mit.edu/projects/playful-words/overview/">Playful Words</a> team is designing tools for children to develop skills in self-expression, literacy, and dialog through natural mediums of written language, pictures, and stories. This group is working with <a href="http://www.bpl.org/">Boston Public Library</a> to gain an understanding of how to integrate <a href="https://www.media.mit.edu/projects/speech-blocks/overview/">SpeechBlocks</a> and other Playful Words tools into existing community networks.
+      The <a href="https://www.media.mit.edu/projects/playful-words/overview/">Playful Words</a> team is designing tools for children to develop skills in self-expression, literacy, and dialog through natural mediums of written language, pictures, and stories. This group is working with <a href="http://www.bpl.org/">Boston Public Library</a> to gain an understanding of how to integrate <a href="https://www.media.mit.edu/projects/storyblocks/overview/">StoryBlocks</a> and other Playful Words tools into existing community networks.
     - >
-      The group is working with community partners and families to design these tools and define the role of what they call a Family Learning Coach. The exchange aims to create workshops and activities to support learning using Playful Words tools, help Family Learning Coaches learn to facilitate child and parent engagement, create tutoring programs to support early learning, and incorporate SpeechBlocks and StoryBlocks literacy tools into storytime for children and families.
+      The group is working with community partners and families to design these tools and define the role of what they call a Family Learning Coach. The exchange aims to create workshops and activities to support learning using Playful Words tools, help Family Learning Coaches learn to facilitate child and parent engagement, create tutoring programs to support early learning, and incorporate StoryBlocks literacy tools into storytime for children and families.
   team_members:
-    - name: Theresa Furbish
-      institution: Boston Public Library
+    - name: Marc Exposito
+      institution: Playful Words, Laboratory for Social Machines
     - name: Jim Gray
       institution: Playful Words, Laboratory for Social Machines, MIT Media Lab
-    - name: Catherine Halpin
-      institution: Boston Public Library
     - name: Anneli Hershman
       institution: Playful Words, Laboratory for Social Machines, MIT Media Lab
     - name: Laura Koenig
       institution: Boston Public Library
-    - name: Juliana Nazare
+    - name: Juliana Nazar&eacute;
       institution: Playful Words, Laboratory for Social Machines, MIT Media Lab
+    - name: Melinda Thompson
+      institution: Boston Public Library
 
 
 scratchx:
