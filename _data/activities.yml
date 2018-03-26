@@ -123,6 +123,44 @@ family_creative_learning:
     - /images/fcl_2.jpg
     - /images/fcl_3.jpg
 
+
+learning_beautiful:
+  name: Learning Beautiful
+  link: /activities/learning-beautiful
+  short_intro: >
+    Learning Beautiful creates timeless toys to teach computer science to young children, without the use of computers.
+  description: >
+    Learning Beautiful creates timeless toys to teach computer science to young children, without the use of computers. Inspired by the Montessori Method, Learning Beautiful engages children when they’re young with tactile play. Learning Beautiful’s curriculum includes a broad base of computational concepts, such as binary numbers, image representation, programming, Boolean logic, and data structures.</p>
+
+    <p>Learning Beautiful will release their first introductory set of materials, created especially for libraries. This set includes the first 3 modules, complete with all materials and activities, a guidebook for librarians, and a playbook for children and parents to use alongside the educational toys. All materials are made from lasting all-natural materials, and manufactured in the United States.</p>
+
+    <p>Learn more at <a href="https://www.learningbeautiful.com/">learningbeautiful.com</a> or email <a href="mailto:info@learningbeautiful.com">info@learningbeautiful.com</a>. If you are a library interested in participating, please send an email to <a href="mailto:kim@learningbeautiful.com">kim@learningbeautiful.com</a>.
+  cover_photo: /images/learning_beautiful.jpg
+  resources:
+    - description: Participate in the Learning Beautiful Library Initiative
+      url: "https://www.learningbeautiful.com/library-initiative"
+    - description: Read more about the making of Learning Beautiful's materials
+      url: "https://qz.com/1069716/an-mit-media-lab-startup-is-creating-beautiful-wooden-toys-to-teach-children-the-basics-of-coding/"
+    - description: Get inspired! See how the Chicago Public Library is using Learning Beautiful's materials
+      url: "http://www.chicagotribune.com/bluesky/originals/ct-bsi-library-coding-toys-20170803-story.html"
+    - description: Subscribe to Learning Beautiful
+      url: "https://www.learningbeautiful.com/"
+  details:
+    age_range: 3-9, with special emphasis on 3-6
+    group_size: Variable, all modules can be used individually or with small groups of 3-4 children, limited only by the number of sets
+    facilitators: 0 or more; can be used with children with their parents, on their own, or with group facilitation
+    facilitator_skills: None! Brief familiarity with the materials and concepts is helpful, and all lessons and accompanying information are included
+    activity_type: Best for free play time, in which a child can direct the activity and time spent. Children can play with their parents, their peers, librarians, or on their own. Lessons available address a wide range of activity types.
+    session_length: Varies, best if child-directed; can be less than 30 min or up to 45 min
+    cost: Our introductory set contains 3 modules for activities, including all required materials, lessons, and an accompanying guidebook for parents and children. These educational toys are made from all natural and lasting materials and locally produced. Extra pieces are available for purchase. Total cost of the introductory set is approximately $550 (final costs based on manufacturing will be determined soon.)
+    supplies: All included in the set; additional worksheets can be printed with the provided digital files
+  photos:
+    - /images/learning_beautiful_1.jpg
+    - /images/learning_beautiful_2.jpg
+    - /images/learning_beautiful_3.jpg
+    - /images/learning_beautiful_4.jpg
+
+
 scratch:
   name: Scratch
   link: /activities/scratch
