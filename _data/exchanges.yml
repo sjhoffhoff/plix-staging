@@ -47,6 +47,11 @@ openag:
       institution: Free Library of Philadelphia
     - name: Heather Sparks
       institution: Free Library of Philadelphia
+  documentation:
+    title: Food Computer Builds
+    items:
+      - name: See documentation from the food computer build sessions
+        url: "https://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895"
 
 
 playful_words:

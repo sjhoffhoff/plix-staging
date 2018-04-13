@@ -95,6 +95,20 @@ body {
       color: white;
     }
   }
+
+  ul.blog-posts {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      padding-bottom: 1em;
+    }
+  }
+
+  span.date {
+    color: $gray;
+    text-decoration: none !important;
+  }
 }
 
 .details {
@@ -122,13 +136,16 @@ body {
   text-align: center;
 }
 
-.external-logo {
+img.external-logo {
   text-align: left;
+  height: 2em;
+  padding: 0 10px 0 0;
+}
 
-  img {
-    height: 2em;
-    padding: 0 10px 0 0;
-  }
+img.libraries-logo {
+  text-align: left;
+  height: 3em;
+  padding: 0 10px 0 0;
 }
 
 .tiles {

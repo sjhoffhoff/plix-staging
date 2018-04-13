@@ -32,6 +32,15 @@
       {% endfor %}
     </ul>
   {% endif %}
+
+  {% if exchange.documentation %}
+    <h3>{{ exchange.documentation.title }}</h3>
+      <ul>
+        {% for d in exchange.documentation.items %}
+          <li><a href="{{ d.url }}">{{ d.name }}</a></li>
+        {% endfor %}
+      </ul>
+  {% endif %}
 </div>
 
 {% if exchange.photos %}
