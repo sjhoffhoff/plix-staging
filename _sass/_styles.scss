@@ -96,9 +96,10 @@ body {
     }
   }
 
-  ul.blog-posts {
+  ul.blog-posts, ul.events {
     list-style-type: none;
     padding: 0;
+    line-height: 1.5em;
 
     li {
       padding-bottom: 1em;
@@ -108,6 +109,11 @@ body {
   span.date {
     color: $gray;
     text-decoration: none !important;
+  }
+
+  span.description {
+    font-size: $med-sm-font;
+    line-height: normal;
   }
 }
 

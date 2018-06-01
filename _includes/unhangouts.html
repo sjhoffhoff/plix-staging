@@ -1,0 +1,15 @@
+{% assign unhangouts = site.data.unhangouts %}
+
+{% if unhangouts %}
+  <h2>Upcoming Unhangouts</h2>
+  {% for u in unhangouts %}
+    <h3>{{ u[1].title }}</h3>
+    <p><em>{{ u[1].date }}</em><br />
+    {% if u[1].url %}
+      <a href="{{ u[1].url }}" target="_blank">Join us!</a>
+    {% else %}
+      Stay tuned for more info!
+    {% endif %}
+    </p>
+  {% endfor %}
+{% endif %}

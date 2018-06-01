@@ -1,0 +1,13 @@
+{% assign events = site.data.events %}
+
+<h2>Upcoming Events:</h2>
+<ul class="events">
+  {% for e in events %}
+    <li>
+      <h3>{{ e.conference }}, {{ e.location }}</h3>
+      <span class="date"> {{ e.date }}, {{ e.time }}</span><br />
+      <a href="{{ e.url }}" target="_blank">{{ e.session_title }}</a><br />
+      <span class="description">{{ e.description }}</span>
+    </li>
+  {% endfor %}
+</ul>

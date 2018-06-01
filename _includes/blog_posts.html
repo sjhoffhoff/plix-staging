@@ -1,0 +1,8 @@
+{% assign blogs = site.data.blogs %}
+
+<h2>Recent blog posts:</h2>
+<ul class="blog-posts">
+  {% for b in blogs %}
+    <li><a href="{{ b.url }}" target="_blank">{{ b.title }}</a><span class="date"> {{ b.date }}</span>
+  {% endfor %}
+</ul>
