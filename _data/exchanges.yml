@@ -102,17 +102,17 @@ scratchx:
     - /images/scratchx_playtest_workshop.jpg
 
 
-# space:
-#   name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
-#   link: /exchanges/space
-#   cover_photo: /images/cubesat.jpg
-#   paragraphs:
-#     - >
-#       We’re exploring an exchange between the Media Lab’s <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a>, <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a>, and <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a>. This team is hoping to build on STEM and climate-related outreach programs that the Space Initiative has been piloting with Boston-area youth. Together, they aim to create materials and workshops for libraries to engage community members with space exploration technologies and STEM learning. The details of this residency exchange are still in development, so stay tuned for updates!
-#   team_members:
-#     - name: Ariel Ekblaw
-#       institution: Space Exploration Initiative, MIT Media Lab
-#     - name: Devora Najjar
-#       institution: Space Exploration Initiative, MIT Media Lab
-#     - name: Avery Normandin
-#       institution: Space Exploration Initiative, MIT Media Lab
+space:
+  name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
+  link: /exchanges/space
+  cover_photo: /images/cubesat.jpg
+  paragraphs:
+    - >
+      We’re exploring an exchange between the Media Lab’s <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a>, <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a>, and <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a>. This team is hoping to build on STEM and climate-related outreach programs that the Space Initiative has been piloting with Boston-area youth. Together, they aim to create materials and workshops for libraries to engage community members with space exploration technologies and STEM learning. The details of this residency exchange are still in development, so stay tuned for updates!
+  team_members:
+    - name: Ariel Ekblaw
+      institution: Space Exploration Initiative, MIT Media Lab
+    - name: Devora Najjar
+      institution: Space Exploration Initiative, MIT Media Lab
+    - name: Avery Normandin
+      institution: Space Exploration Initiative, MIT Media Lab
