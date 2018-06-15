@@ -104,6 +104,7 @@ scratchx:
 
 space:
   name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
+  short_name: CubeSat Co-Building
   link: /exchanges/space
   cover_photo: /images/cubesat.jpg
   paragraphs:
