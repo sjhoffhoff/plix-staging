@@ -1,0 +1,8 @@
+{% assign media = site.data.media %}
+
+<h2>News:</h2>
+<ul class="blog-posts">
+  {% for m in media %}
+    <li><a href="{{ m.url }}" target="_blank">{{ m.title }}</a><span class="date"> {{ m.date }}</span>
+  {% endfor %}
+</ul>
